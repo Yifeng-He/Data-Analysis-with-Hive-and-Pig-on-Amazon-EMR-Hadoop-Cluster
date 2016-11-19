@@ -45,7 +45,8 @@ CREATE TABLE task1_3 (year INT, id INT, movie_name STRING, maxRating DOUBLE)
 
 -- insert data
 INSERT OVERWRITE TABLE task1_3 
-SELECT t2.year, t1.id, t1.movie_name, t2.maxRating FROM task1_1 t1 JOIN task1_2 t2 ON t1.year = t2.year AND t1.rating = t2.maxRating ORDER BY t2.year;
+SELECT t2.year, t1.id, t1.movie_name, t2.maxRating FROM task1_1 t1 JOIN task1_2 t2 ON t1.year = t2.year AND 
+t1.rating = t2.maxRating ORDER BY t2.year;
 
 
 -- *** Task 2: find the top-10 movies since 2005 ordered on rating (descending)
