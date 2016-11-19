@@ -15,7 +15,7 @@ The dataset contains 49,590 rows, each of which has the format of: id, movie_nam
 
 3. Upload the Pig and Hive script and the data file to Amazon S3 bucket
 
-4. On the page of Haddop cluster, click "Step" to submit the job (e.g., Pig or Hive script)
+4. On the page of Hadoop cluster, click "Step" to submit the job (e.g., Pig or Hive script)
 
 5. After the job is completed, check the result from S3 bucket
 
