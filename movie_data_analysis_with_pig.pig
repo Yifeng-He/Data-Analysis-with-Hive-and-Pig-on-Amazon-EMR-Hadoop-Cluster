@@ -49,7 +49,6 @@ C2 = LIMIT B2 10;
 STORE C2 into 's3://yifengsparkoutput/task2_result.csv' using PigStorage(',');
 
 
-
 -- *** Task 3: find the histogram of movie ratings
 -- output result: rating_range (five bins), number_of_movies
 
@@ -64,3 +63,4 @@ C3 = FOREACH B3 GENERATE group, count(id) as number_movies;
 
 -- store the result into a csv file
 STORE C3 into 's3://yifengsparkoutput/task3_result.csv' using PigStorage(',');
+
