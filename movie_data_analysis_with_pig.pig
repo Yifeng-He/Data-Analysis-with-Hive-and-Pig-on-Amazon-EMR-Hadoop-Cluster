@@ -6,7 +6,8 @@ This pig script is ued to analyze the movie data with the following row format: 
 -- load the data from a csv file located in Amazon s3
 raw_data = LOAD 's3://yifengspark/movies_data.csv' using PigStorage(',');
 
-structured_data = FOREACH raw_data  GENERATE (int) $1 as id, $2 as movie_name, (int) $3 as year, (float) $4 as rating, (float) $5 as length;
+structured_data = FOREACH raw_data  GENERATE (int) $1 as id, $2 as movie_name, (int) $3 as year, (float) $4 as rating, 
+(float) $5 as length;
 
 -- data cleaning
 filtered_data = FILTER structured_data BY rating is not null;
