@@ -6,11 +6,14 @@ This pig script is ued to analyze the movie data with the following row format: 
 -- load the data from a csv file located in Amazon s3
 raw_data = LOAD 's3://yifengspark/movies_data.csv' using PigStorage(',');
 
-structured_data = FOREACH raw_data  GENERATE (int) $1 as id, $2 as movie_name, (int) $3 as year, (float) $4 as rating, 
-(float) $5 as length;
+structured_data = FOREACH raw_data  GENERATE (int) $0 as id, $1 as movie_name, (int) $2 as year, (float) $3 as rating, (float) $4 as length;
 
 -- data cleaning
 filtered_data = FILTER structured_data BY rating is not null;
+
+-- show 30 rows of the data
+filtered_data_limit = LIMIT filtered_data 30;
+DUMP filtered_data_limit;
 
 
 -- *** Task 1: fid the top-rating movie for each year ordered on year (ascending)
@@ -38,7 +41,7 @@ STORE C1 into 's3://yifengsparkoutput/task1_result.csv' using PigStorage(',');
 -- output result: id, movie_name, year, rating
 
 -- data filtering
-A2 = FILTER structured_data BY year > 2004;
+A2 = FILTER filtered_data BY year > 2004;
 
 -- descending ordered on rating
 B2 = ORDER A2 by rating DESC;
@@ -54,13 +57,22 @@ STORE C2 into 's3://yifengsparkoutput/task2_result.csv' using PigStorage(',');
 -- output result: rating_range (five bins), number_of_movies
 
 -- convert double(rating) to int(rating)
-A3 = FOREACH structured_data GENERATE (int) rating as rating_bin, id as id;
+A3 = FOREACH filtered_data GENERATE (int) rating as rating_bin, id as id;
+
+-- show 30 rows of the data
+A3_limit = LIMIT A3 10;
 
 -- group on rating_bin
 B3 = GROUP A3 by rating_bin;
 
+-- show 30 rows of the data
+B3_limit = LIMIT B3 10;
+
 -- count the number of movies in each bin
-C3 = FOREACH B3 GENERATE group, count(id) as number_movies;
+C3 = foreach B3 { 
+    unique_IDs = DISTINCT A3.id;
+    generate group, COUNT(unique_IDs) as number_movies;
+};
 
 -- store the result into a csv file
 STORE C3 into 's3://yifengsparkoutput/task3_result.csv' using PigStorage(',');
