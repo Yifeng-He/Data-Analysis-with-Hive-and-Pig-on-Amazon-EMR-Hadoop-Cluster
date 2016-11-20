@@ -81,3 +81,6 @@ CREATE TABLE task3_2 (rating_bin INT, number_movies INT)
 -- insert data
 INSERT OVERWRITE TABLE task3_2 
 SELECT rating_bin, COUNT(id) from task3_1 GROUP BY rating_bin;
+
+-- drop tables after all tasks are done
+DROP TABLE IF EXISTS raw_data, filtered_data, task1_1, task1_2, task1_3, task2_1, task3_1, task3_2;
