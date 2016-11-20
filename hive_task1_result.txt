@@ -1,0 +1,170 @@
+1913,42665,Fantômas I: In the Shadow of the Guillotine,2.9
+1914,29801,Charlie Chaplin Collection,3.8
+1914,20067,Charlie Chaplin Collection: Shorts,3.8
+1915,13,The Birth of a Nation,2.9
+1916,369,Intolerance,3.2
+1918,42650,I Don't Want To Be A Man,2.5
+1919,11,Broken Blossoms,3.3
+1920,62,Dr. Jekyll and Mr. Hyde,3.2
+1921,3,Orphans of the Storm,3.2
+1922,1832,Dr. Mabuse: The Gambler,3.1
+1923,22803,Our Hospitality,3.6
+1924,22804,Sherlock Jr.,3.9
+1925,136,The Battleship Potemkin,3.6
+1925,396,Seven Chances,3.6
+1926,1440,Faust,3.6
+1927,10347,Metropolis Restored,3.9
+1928,214,Steamboat Bill  Jr.,3.7
+1929,1220,Man with a Movie Camera,3.9
+1930,2043,The Blue Angel (German Version),3.6
+1931,401,Dracula,3.6
+1932,2,The Mummy,3.5
+1933,1255,Duck Soup,3.8
+1934,679,Of Human Bondage,3.5
+1935,13747,The Guv'nor,3.7
+1935,17,The Bride of Frankenstein,3.7
+1936,132,Reefer Madness,3.1
+1937,236,A Star Is Born,3.3
+1937,313,Nothing Sacred,3.3
+1938,32,The Lady Vanishes,3.7
+1939,716,Young Mr. Lincoln,3.7
+1940,592,His Girl Friday,3.9
+1941,658,Dumbo,3.8
+1941,382,The Wolf Man,3.8
+1942,44547,Miss Annie Rooney,3.6
+1943,44660,The Crystal Ball,3.6
+1944,1309,Double Indemnity,4.0
+1945,1703,The Scarlet Clue,3.6
+1945,1766,Scarlet Street,3.6
+1945,44676,Brewster's Millions,3.6
+1946,1632,A Night in Casablanca,3.7
+1947,683,The Ghost and Mrs. Muir,3.9
+1948,2058,Call Northside 777,3.8
+1949,706,Twelve O'Clock High,3.9
+1950,71,All About Eve,3.8
+1951,690,The African Queen,4.1
+1952,100,High Noon,3.9
+1953,673,Roman Holiday,4.1
+1954,591,White Christmas,4.3
+1955,12437,Alfred Hitchcock Presents,3.9
+1956,5267,The Red Balloon,4.0
+1957,715,Witness for the Prosecution,4.0
+1958,697,The Inn of the Sixth Happiness,4.0
+1959,714,Imitation of Life,4.0
+1960,1793,The Andy Griffith Show: Season 1,4.0
+1960,16364,The Andy Griffith Show,4.0
+1961,2141,The Andy Griffith Show: Season 2,4.0
+1962,704,The Man Who Shot Liberty Valance,4.0
+1962,2217,The Andy Griffith Show: Season 3,4.0
+1963,34007,Classic Doctor Who,4.2
+1964,39420,Doctor Who: The Aztecs,4.2
+1965,2498,The Andy Griffith Show: Season 6,4.0
+1966,2582,The Andy Griffith Show: Season 7,4.0
+1967,2701,The Andy Griffith Show: Season 8,4.0
+1968,39425,Doctor Who: The Mind Robber,4.2
+1969,400,Butch Cassidy and the Sundance Kid,4.0
+1970,39458,Doctor Who: Spearhead from Space,4.2
+1971,1715,The Big Boss,4.0
+1972,39469,Doctor Who: The Three Doctors,4.2
+1973,39443,Doctor Who: The Green Death,4.2
+1973,39409,Doctor Who: Carnival of Monsters,4.2
+1974,2462,Columbo: Season 4,3.8
+1974,1603,Where the Red Fern Grows,3.8
+1975,39487,Doctor Who: Pyramids of Mars,4.2
+1975,39581,Doctor Who: The Ark in Space,4.2
+1976,38406,Columbo: Season 6,3.8
+1976,38405,Columbo: Season 7,3.8
+1977,39435,Doctor Who: Horror of Fang Rock,4.2
+1978,39474,Doctor Who: The Power of Kroll,4.2
+1978,39415,Doctor Who: The Androids of Tara,4.2
+1978,39484,Doctor Who: The Ribos Operation,4.2
+1978,39477,Doctor Who: The Pirate Planet,4.2
+1979,39456,Doctor Who: City of Death,4.2
+1980,39440,Doctor Who: The Leisure Hive,4.2
+1981,411,The Fox and the Hound,3.9
+1982,39468,Doctor Who: The Visitation,4.2
+1983,40844,It's An Adventure  Charlie Brown,4.1
+1984,39414,Doctor Who: The Caves of Androzani,4.2
+1985,16,The Breakfast Club,4.0
+1985,9679,You're A Good Man  Charlie Brown,4.0
+1986,40842,Happy New Year  Charlie Brown,4.1
+1987,31053,Inspector Morse: Series 1,4.1
+1987,31971,Inspector Morse,4.1
+1988,31049,Inspector Morse: Series 2,4.1
+1988,19675,The Wonder Years,4.1
+1988,26724,The Wonder Years: Season 2,4.1
+1988,40841,The Mayflower Voyagers,4.1
+1988,7274,The Wonder Years: Season 1,4.1
+1989,27852,Agatha Christie's Poirot: Series 1,4.2
+1989,28016,Agatha Christie's Poirot,4.2
+1989,39589,Doctor Who: The Curse of Fenric,4.2
+1990,1360,Ken Burns: The Civil War,4.2
+1990,36384,Agatha Christie's Poirot: Series 2,4.2
+1990,26487,Ken Burns: The Civil War,4.2
+1991,36566,Agatha Christie's Poirot: Series 3,4.2
+1992,36561,Agatha Christie's Poirot: Series 4,4.2
+1993,36580,Agatha Christie's Poirot: Series 5,4.2
+1994,465,Forrest Gump,4.3
+1995,491,Braveheart,4.2
+1995,36573,Agatha Christie's Poirot: Series 6,4.2
+1996,43668,Dexter's Laboratory,4.1
+1996,13327,Dexter's Laboratory: Season 1,4.1
+1996,14816,Big Cat Diary: Season 1,4.1
+1996,17536,Big Cat Diary,4.1
+1997,288,Life Is Beautiful,4.2
+1998,29620,The Life of Birds,4.2
+1998,1357,The Life of Birds,4.2
+1998,303,Mulan: Special Edition,4.2
+1999,1595,Freaks and Geeks: The Complete Series,4.4
+1999,39248,Freaks and Geeks,4.4
+2000,46566,Digimon: Digital Monsters: Season 2,4.2
+2000,1607,The West Wing: Season 2,4.2
+2001,36060,The Blue Planet: A Natural History of the Oceans,4.3
+2001,32621,The Blue Planet: A Natural History of the Oceans,4.3
+2002,1462,Firefly: The Complete Series,4.3
+2002,26499,Firefly,4.3
+2003,1934,Fullmetal Alchemist,4.3
+2003,26941,Fullmetal Alchemist,4.3
+2004,2345,Long Way Round,4.4
+2004,47607,Long Way Round,4.4
+2004,1974,Samurai Champloo,4.4
+2004,29828,Samurai Champloo,4.4
+2005,12993,Doctor Who,4.3
+2005,13313,Supernatural,4.3
+2005,2379,Supernatural: Season 1,4.3
+2005,2533,Doctor Who: Season 1,4.3
+2006,41115,Kenichi: The Mightiest Disciple: Season 1,4.3
+2006,26944,Kenichi: The Mightiest Disciple,4.3
+2006,2672,Supernatural: Season 2,4.3
+2006,2785,Doctor Who: Season 2,4.3
+2007,47608,Long Way Down,4.3
+2007,3794,Doctor Who: Season 3,4.3
+2007,4755,Supernatural: Season 3,4.3
+2007,6981,Long Way Down,4.3
+2007,41114,Kenichi: The Mightiest Disciple: Season 2,4.3
+2007,19304,Heartland: Season 1,4.3
+2007,19662,Heartland,4.3
+2008,6997,Breaking Bad: Season 1,4.5
+2008,13315,Breaking Bad,4.5
+2009,41846,Fairy Tail: Season 1,4.5
+2009,8041,Breaking Bad: Season 2,4.5
+2009,43071,Fairy Tail,4.5
+2010,12079,Breaking Bad: Season 3,4.5
+2010,14957,Sherlock: Series 1,4.5
+2010,14721,The Walking Dead: Season 1,4.5
+2010,26484,Sherlock,4.5
+2010,21911,The Walking Dead,4.5
+2011,14955,Breaking Bad: Season 4,4.5
+2011,19400,The Walking Dead: Season 2,4.5
+2012,30426,The Avengers,4.5
+2012,33523,Sherlock: Series 2,4.5
+2012,37897,The Walking Dead: Season 3,4.5
+2012,36259,Breaking Bad: Season 5,4.5
+2013,44098,Arrested Development (Trailer),4.5
+2013,46401,The Fosters: Season 1,4.5
+2013,46388,The Fosters,4.5
+2013,37141,Orange Is the New Black,4.5
+2013,37138,Orange Is the New Black: Season 1,4.5
+2013,43444,Blackfish,4.5
+2013,49504,Lilyhammer: Season 2 (Trailer),4.5
+2014,49561,The Square (Trailer),3.6
