@@ -1,6 +1,6 @@
 /* 
 This pig script is ued to analyze the movie data with the following row format: (id, movie_name, year, rating, length), for example:
-1,The Nightmare Before Christmas,1993,3.9,4568
+34,The Nightmare Before Christmas,1993,3.9,4568
 */
 
 -- load the data from a csv file located in Amazon s3
