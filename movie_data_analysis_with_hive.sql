@@ -3,16 +3,13 @@
 -- (id, movie_name, year, rating, length)
 -- for example: 34,The Nightmare Before Christmas,1993,3.9,4568
 
-
 -- create table to store the data from a csv file located in Amazon s3
-
 CREATE EXTERNAL TABLE IF NOT EXISTS raw_data (id INT, movie_name STRING, year INT, rating DOUBLE, length DOUBLE) 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
-LOCATION 's3://yifengspark/';
+LOCATION 's3://yifengsparkdata/';
 
 -- create table to store the data after filtering out the rows with missing values
-
-CREATE TABLE filtered_data (id INT, movie_name STRING, year INT, rating DOUBLE);
+CREATE TABLE filtered_data (id INT, movie_name STRING, year INT, rating DOUBLE, length DOUBLE);
 
 -- insert filtered data into the table 
 INSERT OVERWRITE TABLE filtered_data 
@@ -46,7 +43,7 @@ CREATE TABLE task1_3 (year INT, id INT, movie_name STRING, maxRating DOUBLE)
 -- insert data
 INSERT OVERWRITE TABLE task1_3 
 SELECT t2.year, t1.id, t1.movie_name, t2.maxRating FROM task1_1 t1 JOIN task1_2 t2 ON t1.year = t2.year AND 
-t1.rating = t2.maxRating ORDER BY t2.year;
+  t1.rating = t2.maxRating ORDER BY t2.year;
 
 
 -- *** Task 2: find the top-10 movies since 2005 ordered on rating (descending)
@@ -79,9 +76,8 @@ CREATE TABLE task3_2 (rating_bin INT, number_movies INT)
  row format delimited fields terminated by ',' 
  lines terminated by '\n' 
  STORED AS TEXTFILE
- LOCATION 's3://yifengsparkoutput/hive_task2/';
+ LOCATION 's3://yifengsparkoutput/hive_task3/';
 
 -- insert data
 INSERT OVERWRITE TABLE task3_2 
 SELECT rating_bin, COUNT(id) from task3_1 GROUP BY rating_bin;
-
